@@ -1,0 +1,45 @@
+header, main, footer {
+    text-align: center;
+    padding: 20px;
+}
+
+body{
+    background: #aec6cf;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10rem;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+img {
+    border-radius: 50%;
+    max-width: 300px;
+    border: 2px solid #333;
+}
+
+/* Style for the current day of the week and UTC time */
+p {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Style for the GitHub link */
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+
